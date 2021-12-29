@@ -1,0 +1,53 @@
+body{
+  height: 100%;
+  margin: 0;
+  position: relative;
+  background-image: url('https://64.media.tumblr.com/d7caab0897beb384481184cbd6b79182/tumblr_n6bdslPzHF1s1oo06o1_400.png');
+}
+.button {
+  border-radius: 15px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Press Start 2P';
+  padding: 20px;
+  width: 120px;
+  transition: all 0.5s;
+  margin: 5px;
+}
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.middle {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+blockquote{
+  background-color: #F9F7FA;
+  font-family: 'Press Start 2P';
+  width: 700px;
+  padding: 10px;
+  border-top: 30px solid red;
+  margin: 0;
+}
