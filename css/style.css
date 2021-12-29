@@ -1,0 +1,108 @@
+body { 
+  background-image: url(https://64.media.tumblr.com/d7caab0897beb384481184cbd6b79182/tumblr_n6bdslPzHF1s1oo06o1_400.png);
+  font-family: 'Press Start 2P';
+  cursor: url(http://www.rw-designer.com/cursor-view/87537.png),default;
+}
+
+/*scroll bar*/
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #6556ba;
+}
+::-webkit-scrollbar-thumb {
+  background: #8372cc;
+}
+
+/* for input note stay in place while scrolling*/
+div.sticky { 
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:#FECCFE;
+    padding: 65px;
+}
+input[type=text] {
+  font-family: 'Press Start 2P';
+  width: 100%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #f1edee;
+}
+input[type=submit]{
+  float: right; 
+  background-color: #E6E6FA;
+  border: none;
+  border-radius: 15px;
+  font-family: 'Press Start 2P';
+  color: grey;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  cursor: url(http://www.rw-designer.com/cursor-view/87550.png), auto;
+}
+blockquote{
+  background-color:#F2E7F9;
+  width: 700px;
+  padding: 10px;
+  border-top: 15px solid #d5b4fc;
+  margin: 0;
+}
+sub{
+  font-family: 'Squada One';
+  font-size: 18px;
+  color:white;
+}
+sup{
+  font-size: 10px;
+}
+
+/*hyperlink*/
+a{
+  text-decoration: none;
+  color: #800080; 
+}
+a:hover {
+  color: #800080a7; 
+}
+
+/*text selection*/
+::-moz-selection { /* for Firefox browser */
+  background: #C0E9EF;
+}
+::selection {
+  background: #C0E9EF;
+}
+#container {    
+  margin-left: auto;
+  margin-right: auto   
+  width: 100%;
+}
+#header {   
+  background-color: #FECCFE; 
+  color: #800080;   
+  padding: 10px; 
+  text-align: center;
+  height: 5%;
+}
+#mainContainer {       
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto
+}
+#content {        
+  width: 65%;   
+  padding: 20px 0;        
+  display: auto;
+  margin-left: auto;
+  margin-right: auto
+}
+#footer {
+  background-color: #FECCFE; 
+  color: #800080;   
+  text-align: center;    
+  padding: 10px;   
+  height: 1%;
+}
+  
