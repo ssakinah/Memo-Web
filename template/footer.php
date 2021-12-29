@@ -1,7 +1,7 @@
 <div id="footer">
 <img src="https://64.media.tumblr.com/b7d728ddd33799a12430249689a6a6e4/tumblr_inline_n37h1aVK8B1qhwjx8.gif" alt="divider">
 <br><br>
-    <p>CREATED BY SITI SAKINAH BINTI AHMAD SANUSI (148421) © 2020</p><br>
+    <p>CREATED BY SAKINAH © 2020</p><br>
     <sup>
     references:
     <a href="https://elearning.usm.my/sidang2021/mod/resource/view.php?id=24104">base,</a>
